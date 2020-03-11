@@ -1,0 +1,24 @@
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>带关闭按钮的浮动窗口代码(全屏漂浮)</title>
+</head>
+<style type="text/css">
+#fty {border:1px solid #FF7256;margin:0 auto;padding:5px;background:#FFEFDB}
+</style>
+<body>
+<div id="img1" style="position: absolute; left: 311; top: 815;visibility :hidden;" onmouseover="clearInterval(interval)" onmouseout="interval = setInterval('changePos()', delay)" align="middle">
+<span style="CURSOR:hand;
+             color:#FF7256;
+             font-weight:bold;
+             font-size:12px" 
+      onclick="clearInterval(interval);img1.style.visibility = 'hidden'">关闭</span>
+<div id="fty">
+坏时代<br>来临力
+</div>
+</div>
+<script type="text/javascript" src=tjs1.js>
+</script>
+</body>
+</html>
