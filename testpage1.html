@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>文档的标题</title>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width, initial-scale=1,">
+<title>夜雨绸缪</title>
 </head>
-<script src="/test1.js">
-</script>
+
 <body>
-文档的内容......<br>
-<b>bold text</b>
 
-<p id="demo">一个段落。</p>
+<p><b>学习onblur和onfocus的用法</b></p>
+		
+<script>//https://www.cnblogs.com/xiaobaiv/p/9866245.html
+document.addEventListener('visibilitychange',function(){
+    if( document.visibilityState == 'hidden' ){
+        normal_title = document.title;
+        document.title = '梦里花落知多少 ^_^ ~ ~';
+    }else{
+        document.title = '永远相信美好的事情即将发生';
+        setTimeout(function(){
+            document.title = normal_title;
+        }, 1500)//数字越大时间越长
+    }
+});
+</script>
 
-<button type="button" onclick="myFunction()">试一试</button>
+<script>
+function myfirstFunction(x){
+x.style.background="yellow";
+}
+
+function mysenFunction(y){
+y.style.background="transparent";
+}
+</script>
+
+输入你的名字: <input type="text" onfocus="myfirstFunction(this)" onblur="mysenFunction(this)">
+<p>当输入框获取焦点时，修改背景色（background-color属性） 将被触发。</p>
+
+<br>
+
+
+<script>
+function upperCase()
+{
+var x=document.getElementById("fname").value
+document.getElementById("fname").value=x.toUpperCase()
+}
+function lowerCase()
+{
+var y=document.getElementById("fname").value
+document.getElementById("fname").value=y.toLowerCase()
+}
+</script>
+
+<p>请输入您的姓名，然后把焦点移动到字段外：</p>
+请输入您的姓名（英文字符）：<input type="text" name="fname" id="fname" onblur="upperCase()" onfocus="lowerCase()">
+
+<br>
 
 </body>
-
 </html>
+
