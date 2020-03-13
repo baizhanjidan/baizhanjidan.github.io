@@ -8,62 +8,62 @@ function changeslbell(a,rnum="0") {
 
     if (rnum == 1) {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/move.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/d84d483c67d0e53e.gif)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/move.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/d84d483c67d0e53e.gif)"
         });
       }, 300);
     } else {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/move.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/d84d483c67d0e53e.gif)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/move.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/d84d483c67d0e53e.gif)"
         });
       }, 300);
     }
   } else if (a == "2") {
     $('#slbell').css({
-      "background-image": "url(baizhanjidan.github.io/newtestleft/leftm.png)"
+      "background-image": "url(http://i2.tiimg.com/712728/372e9d935dc35b9d.png)"
     });
     dhtimer = setTimeout(function() {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/leftr.png)"
+        "background-image": "url(http://i2.tiimg.com/712728/b3fac5beb3906590.png)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/leftl.png)"
+          "background-image": "url(http://i2.tiimg.com/712728/ed60e29c4471516c.png)"
         });
       }, 300);
     }, 300);
   } else if (a == "3") {
     $('#slbell').css({
-      "background-image": "url(baizhanjidan.github.io/newtestleft/leftm.png)"
+      "background-image": "url(http://i2.tiimg.com/712728/372e9d935dc35b9d.png)"
     });
     dhtimer = setTimeout(function() {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/leftr.png)"
+        "background-image": "url(http://i2.tiimg.com/712728/b3fac5beb3906590.png)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/leftl.png)"
+          "background-image": "url(http://i2.tiimg.com/712728/ed60e29c4471516c.png)"
         });
       }, 300);
     }, 300);
   } else if (a == "4") {
     $('#slbell').css({
-      "background-image": "url(baizhanjidan.github.io/newtestleft/sleep01.png)"
+      "background-image": "url(http://i2.tiimg.com/712728/da05ec42cba9a792.png)"
     });
     dhtimer = setTimeout(function() {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/sleep.gif)"
+        "background-image": "url(ttp://i2.tiimg.com/712728/440d3430b2aa16e1.gif)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/sleep01.png)"
+          "background-image": "url(http://i2.tiimg.com/712728/da05ec42cba9a792.png)"
         });
       }, 300);
     }, 300);
@@ -71,15 +71,15 @@ function changeslbell(a,rnum="0") {
 
     dhtimer = setTimeout(function() {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/special.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/9a98fdbf2a563c18.gif)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/special.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/9a98fdbf2a563c18.gif)"
         });
         dhtimer = setTimeout(function() {
           $('#slbell').css({
-            "background-image": "url(baizhanjidan.github.io/newtestleft/special.gif)"
+            "background-image": "url(http://i2.tiimg.com/712728/9a98fdbf2a563c18.gif)"
           });
         }, 300);
       }, 600);
@@ -87,11 +87,11 @@ function changeslbell(a,rnum="0") {
   } else if (a == "6") {
     dhtimer = setTimeout(function() {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/action03.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/2738113cfe2b321a.gif)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/action04.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/2b66f3743ff862ef.png)"
         });
       }, 300);
     }, 200);
@@ -120,7 +120,7 @@ function smjmove() {
         clearTimeout(dhtimer);
         clearInterval(dh);
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       }
@@ -143,7 +143,7 @@ function smjmove() {
         clearTimeout(dhtimer);
         clearInterval(dh);
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       });
@@ -157,7 +157,7 @@ function smjmove() {
         clearTimeout(dhtimer);
         clearInterval(dh);
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       });
@@ -171,7 +171,7 @@ function smjmove() {
         clearTimeout(dhtimer);
         clearInterval(dh);
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/special.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/9a98fdbf2a563c18.gif)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       });
@@ -185,7 +185,7 @@ function smjmove() {
         clearTimeout(dhtimer);
         clearInterval(dh);
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/special.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/9a98fdbf2a563c18.gif)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       });
@@ -201,7 +201,7 @@ function smjmove() {
         clearTimeout(dhtimer);
         clearInterval(dh);
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       });
@@ -216,7 +216,7 @@ function smjmove() {
         clearTimeout(dhtimer);
         clearInterval(dh);
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       });
@@ -232,7 +232,7 @@ function smjmove() {
           clearTimeout(dhtimer);
           clearInterval(dh);
           $('#slbell').css({
-            "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+            "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
           });
           movetimer = setTimeout("smjmove()", 5000)
         });
@@ -247,7 +247,7 @@ function smjmove() {
           clearTimeout(dhtimer);
           clearInterval(dh);
           $('#slbell').css({
-            "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+            "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
           });
           movetimer = setTimeout("smjmove()", 5000)
         });
@@ -267,7 +267,7 @@ function smjmove() {
           clearTimeout(dhtimer);
           clearInterval(dh);
           $('#slbell').css({
-            "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+            "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
           });
           movetimer = setTimeout("smjmove()", 5000)
         });
@@ -280,7 +280,7 @@ function smjmove() {
           clearTimeout(dhtimer);
           clearInterval(dh);
           $('#slbell').css({
-            "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+            "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
           });
           movetimer = setTimeout("smjmove()", 5000)
         });
@@ -293,7 +293,7 @@ function smjmove() {
 
 function jiangluo() {
   $('#slbell').css({
-    "background-image": "url(baizhanjidan.github.io/newtestleft/start01.png)"
+    "background-image": "url(http://i2.tiimg.com/712728/248d3450601bb238.png)"
   });
   var nowY = $('#slbell').position().top;
   var faWidth = $('#slbell').parent().height() - 150;
@@ -302,15 +302,15 @@ function jiangluo() {
     top: "+=" + yyy
   }, yyy * 20, function() {
     $('#slbell').css({
-      "background-image": "url(baizhanjidan.github.io/newtestleft/start0.gif)"
+      "background-image": "url(http://i2.tiimg.com/712728/f0251fadc8a69d06.gif)"
     });
     timer = setTimeout(function() {
       $('#slbell').css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/start0.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/f0251fadc8a69d06.gif)"
       });
       timer = setTimeout(function() {
         $('#slbell').css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/idle.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/09daa14e1674ec4b.gif)"
         });
         movetimer = setTimeout("smjmove()", 5000)
       }, 1000)
@@ -438,12 +438,12 @@ $.fn.extend({
       var rnum = Math.round(Math.random());
       if(rnum==0){
       $this.css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
       });
       mDown = false;
       jiangluo();}else{
         $this.css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
         });
         mDown = false;
         movetimer = setTimeout("smjmove()", 5000)
@@ -453,12 +453,12 @@ $.fn.extend({
       var rnum = Math.round(Math.random());
       if(rnum==0){
       $this.css({
-        "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
       });
       mDown = false;
       jiangluo();}else{
         $this.css({
-          "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+          "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
         });
         mDown = false;
         movetimer = setTimeout("smjmove()", 5000)
@@ -522,11 +522,11 @@ $.fn.extend({
           });
           if (selX > 0) {
             $this.css({
-              "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+              "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
             });
           } else {
             $this.css({
-              "background-image": "url(baizhanjidan.github.io/newtestleft/relax.gif)"
+              "background-image": "url(http://i2.tiimg.com/712728/1919f17a900bd799.png)"
             });
           }
         } else {
@@ -623,11 +623,11 @@ $.fn.extend({
           });
           if (selX > 0) {
             $this.css({
-              "background-image": "url(baizhanjidan.github.io/newtestleft/start02.png)"
+              "background-image": "url(http://i2.tiimg.com/712728/4fabc5ae7f9355d1.png)"
             });
           } else {
             $this.css({
-              "background-image": "url(baizhanjidan.github.io/newtestleft/start04.png)"
+              "background-image": "url(http://i2.tiimg.com/712728/2b66f3743ff862ef.png)"
             });
           }
         } else {
