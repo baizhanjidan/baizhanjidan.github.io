@@ -59,7 +59,7 @@ function changeslbell(a,rnum="0") {
     });
     dhtimer = setTimeout(function() {
       $('#slbell').css({
-        "background-image": "url(ttp://i2.tiimg.com/712728/440d3430b2aa16e1.gif)"
+        "background-image": "url(http://i2.tiimg.com/712728/440d3430b2aa16e1.gif)"
       });
       dhtimer = setTimeout(function() {
         $('#slbell').css({
