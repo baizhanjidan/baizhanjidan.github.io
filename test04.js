@@ -1,6 +1,10 @@
-$("body").prepend("<div style='z-index:1000;top:0px;left:0px;position: fixed;width:100%;height:100%;-webkit-pointer-events: none;-moz-pointer-events: none;-ms-pointer-events: none;-o-pointer-events: none;pointer-events: none;'>
-<div id='slbell' draggable='true' style='pointer-events:auto;position: absolute;cursor:pointer ;top:100px;left:10px;width:150px;height:150px;background-image:url(baizhanjidan.github.io/blob/master/newtestleft/sleep.gif);background-size:100%;z-index:99999999'></div></div><style>div.col-md-2.col-lg-2.col-xs-2.col-sm-2{z-index:-1 !important;}</style>");
-// <
+$("body").prepend("
+<div style="z-index: 100000; top: 0px; left: 0px; position: fixed; width: 100%; height: 100%; pointer-events: none; overflow: hidden;">
+<div id="slbell" draggable="true" style="pointer-events: auto; position: absolute; cursor: pointer; top: 40px; left: 10px; width: 150px; height: 150px; background-image: url(&quot;newtestleft/sleep.gif&quot;); background-size: 100%; z-index: 1;">
+</div>
+</div>
+");
+
 // <style>#slbell{z-index:99999 !important;position:relative !important}</style>
 
 var dh = null;
