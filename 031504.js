@@ -58,38 +58,13 @@ $(document).ready(function () {
         $("#yelou").append(biaoqing);
       }
       $("#yelou").append(
-        '<br><font id="yeclj">瓒呴摼鎺ヤ唬鐮�</font> 聽<font id="yejsjbz" class="xiu">閲戣壊娓愬彉瀛椾唬鐮�</font> 聽<font id="yezyb">閬奖姝ヤ唬鐮�</font> 聽<font id="yejgg">缁欏彾妤煎姞鍏憡</font> 聽<font id="yebwz"><b>鍔犵矖</b></font>'
+        '<br>'
       );
-      $("#yeclj").on("click", function() {
-        $("#wenbenkuang").val(
-          $("#wenbenkuang").val() +
-            '<a href="閾炬帴" target="_blank">鐐规垜灏辩湅XXX</a>'
-        );
-        $(".am-tabs-bd").hide();
-      });
-      $("#yejsjbz").on("click", function() {
-        $("#wenbenkuang").val(
-          $("#wenbenkuang").val() + '<font class="xiu">鏂囧瓧</font>'
-        );
-        $(".am-tabs-bd").hide();
-      });
-      $("#yezyb").on("click", function() {
-        $("#wenbenkuang").val(
-          $("#wenbenkuang").val() + '<font class="zheyingbu">鏂囧瓧</font>'
-        );
-        $(".am-tabs-bd").hide();
-      });
-      $("#yejgg").on("click", function() {
-        $("#wenbenkuang").val(
-          $("#wenbenkuang").val() +
-            '<scri'+'pt>ye_call_board="鏂囧瓧鎴栭摼鎺�/鍥剧墖浠ｇ爜"</sc'+'ript>'
-        );
-        $(".am-tabs-bd").hide();
-      });
-      $("#yebwz").on("click", function() {
-        $("#wenbenkuang").val($("#wenbenkuang").val() +'<b>鏂囧瓧</b>');
-        $(".am-tabs-bd").hide();
-      });
+
+
+
+
+
       
       $(".am-tabs-bd").show();
     });
