@@ -6,15 +6,7 @@ $(document).ready(function () {
     $("#YeCallBoard").html(ye_call_board);
     $("#acn").before('<div class="am-tab-panel am-fade" id="yelou"></div>');
     $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='yeloubqb' class><a href='#yelou'>蹇ч儊灏忕尗鐚�</li>");
-    $("#yeclj").on("click", function () {
-        $("#wenbenkuang").val($("#wenbenkuang").val() + '<a href="閾炬帴" target="_blank">鐐规垜灏辩湅XXX</a>');
-    });
-    $("#yejsjbz").on("click", function () {
-        $("#wenbenkuang").val($("#wenbenkuang").val() + '<font class="xiu">鏂囧瓧</font>');
-    });
-    $("#yezyb").on("click", function () {
-        $("#wenbenkuang").val($("#wenbenkuang").val() + '<font class="zheyingbu">鏂囧瓧</font>');
-    });
+
     $("#yeloubqb").on("click", function() {
       var imglist = [
         "https://i.loli.net/2019/10/27/lF9QtjMuP8dNXbS.png",
@@ -74,27 +66,6 @@ $(document).ready(function () {
         );
         $(".am-tabs-bd").hide();
       });
-      $("#yezyb").on("click", function() {
-        $("#wenbenkuang").val(
-          $("#wenbenkuang").val() + '<font class="zheyingbu">鏂囧瓧</font>'
-        );
-        $(".am-tabs-bd").hide();
-      });
-      $("#yejgg").on("click", function() {
-        $("#wenbenkuang").val(
-          $("#wenbenkuang").val() +
-            '<scri'+'pt>ye_call_board="鏂囧瓧鎴栭摼鎺�/鍥剧墖浠ｇ爜"</sc'+'ript>'
-        );
-        $(".am-tabs-bd").hide();
-      });
-      $("#yebwz").on("click", function() {
-        $("#wenbenkuang").val($("#wenbenkuang").val() +'<b>鏂囧瓧</b>');
-        $(".am-tabs-bd").hide();
-      });
-      $("#yehwz").on("click", function() {
-        $("#wenbenkuang").val($("#wenbenkuang").val() +'<font color=red><b>鏂囧瓧</b></font>');
-        $(".am-tabs-bd").hide();
-      });
-      $(".am-tabs-bd").show();
+      
     });
 });
