@@ -4,28 +4,27 @@ $(document).ready(function () {
 	$("div.text-success").before("<div align='center' id='ceshi'></div>");
     $("#ceshi").html(ce_shi);
     $("#acn").before('<div class="am-tab-panel am-fade" id="ceshi2"></div>');
-    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='yeloubqb' class><a href='#ceshi2'>表情包</li>");
+    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='ceshi5' class><a href='#ceshi2'>表情包</li>");
     
-    $("#yeloubqb").on("click", function() {
+    $("#ceshi5").on("click", function() {
       var imglist = [
-        "https://i.loli.net/2019/10/27/lF9QtjMuP8dNXbS.png",
-        "https://i.loli.net/2019/10/27/TYyuIAPOUXJcpCD.png",
+        "https://i.loli.net/2020/03/15/VmQhgoJNkbYRfA4.gif",
+        "https://i.loli.net/2020/03/15/yFlAeYrPI6zxZ5t.png",
 
       ];
       $("#ceshi2").empty();
       for (var b = 0; b < imglist.length; b++) {
-        var biaoqing =
+        var ceshiemo =
           "<img src='" +
           imglist[b] +
           "' class='emot-class' Onclick='addemot(\"" +
           imglist[b] +
           "\")'>";
-        $("#ceshi2").append(biaoqing);
+        $("#ceshi2").append(ceshiemo);
       }
       $("#ceshi2").append(
         '<br>'
       );
-      
       $(".am-tabs-bd").show();
     });
 });
