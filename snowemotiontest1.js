@@ -10,6 +10,7 @@ $(document).ready(function () {
       var imglist = [
         "https://i.loli.net/2020/03/15/VmQhgoJNkbYRfA4.gif",
         "https://i.loli.net/2020/03/15/yFlAeYrPI6zxZ5t.png",
+		"http://i1.fuimg.com/712728/65bab655787573cf.png"，
 
       ];
       $("#snow01").empty();
