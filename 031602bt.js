@@ -1,1 +1,1 @@
-$("body").prepend("<link rel="shortcut icon" href="https://baizhanjidan.github.io/favicon.ico">")
+$("head").prepend("<link rel="shortcut icon" href="https://baizhanjidan.github.io/favicon.ico">")
