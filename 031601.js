@@ -1,4 +1,3 @@
-$("head").prepend("<title>啦啦啦</title>")
 document.addEventListener('visibilitychange',function(){
     if( document.visibilityState == 'hidden' ){
         normal_title = document.title;
