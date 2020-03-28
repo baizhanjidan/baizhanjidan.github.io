@@ -4,7 +4,7 @@ $(document).ready(function () {
 	$("div.text-success").before("<div align='center' id='snow'></div>");
     $("#snow").html(snow_lp);
     $("#acn").before('<div class="am-tab-panel am-fade" id="snow01"></div>');
-    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='snow02' class><a href='#snow01'>俺的bqb</li>");
+    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='snow02' class><a href='#snow01'>吉祥三豹</li>");
     $("#shanchu").on("click", function () {
         $("#wenbenkuang").val($("#wenbenkuang").val() + '<s></s>');
     });
