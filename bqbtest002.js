@@ -4,12 +4,21 @@ $(document).ready(function () {
 	$("div.text-success").before("<div align='center' id='snow'></div>");
     $("#snow").html(snow_lp);
     $("#acn").before('<div class="am-tab-panel am-fade" id="snow01"></div>');
-    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='snow02' class><a href='#snow01'>俺的bqb</li>");
+    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='snow02' class><a href='#snow01'>吉祥三豹</li>");
     
     $("#snow02").on("click", function() {
       var imglist = [
-        "https://i.loli.net/2019/12/05/WkNUm8YuKxbVg7e.jpg",
-        "https://ftp.bmp.ovh/imgs/2019/10/578796363eeafb1e.gif"
+        "http://i1.fuimg.com/712728/65bab655787573cf.png",
+        "http://i1.fuimg.com/712728/fe491bac039dc489.png",
+        "http://i1.fuimg.com/712728/063495cb8f04041a.png",
+        "http://i1.fuimg.com/712728/263e93258920e480.png",
+        "http://i1.fuimg.com/712728/ca47402e66770c6e.png",
+        "http://i1.fuimg.com/712728/d026c0d5ea67a935.png",
+        "http://i1.fuimg.com/712728/13419aacc651c63b.png",
+	"http://i1.fuimg.com/712728/5415255332a70011.png",
+        "http://i1.fuimg.com/712728/8430c58f7c02bb7e.png",
+        "http://i1.fuimg.com/712728/403eb02ecf19a45f.png",
+
       ];
       $("#snow01").empty();
       for (var b = 0; b < imglist.length; b++) {
