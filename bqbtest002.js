@@ -11,6 +11,9 @@ $(document).ready(function () {
     $("#zhedie").on("click", function () {
         $("#wenbenkuang").val($("#wenbenkuang").val() + '<details><summary>Click to open</summary>内容</details>');
     });
+    $("#lianjie").on("click", function () {
+        $("#wenbenkuang").val($("#wenbenkuang").val() + '<a href="地址" target="_blank">点就看</a>');
+    });
     $("#snow02").on("click", function() {
       var imglist = [
         "https://i2.tiimg.com/663097/29a5020fc21fce0e.jpg",
@@ -27,7 +30,7 @@ $(document).ready(function () {
         $("#snow01").append(snowemo);
       }
       $("#snow01").append(
-        '<br><font id="shanchu" color="#4682B4">删除线</font>&nbsp;&nbsp;<font id="zhedie" color="#4682B4">折叠</font>'
+        '<br><br><font id="shanchu" color="#4682B4">删除线</font>&nbsp;&nbsp;<font id="zhedie" color="#4682B4">折叠</font>&nbsp;&nbsp;<font id="lianjie" color="#4682B4">点就看</font>'
       );
       $("#shanchu").on("click", function() {
         $("#wenbenkuang").val(
@@ -40,6 +43,13 @@ $(document).ready(function () {
         $("#wenbenkuang").val(
           $("#wenbenkuang").val() +
             '<details><summary>Click to open</summary>内容</details>'
+        );
+        $(".am-tabs-bd").hide();
+      });
+      $("#lianjie").on("click", function() {
+        $("#wenbenkuang").val(
+          $("#wenbenkuang").val() +
+            '<a href="地址" target="_blank">点就看</a>'
         );
         $(".am-tabs-bd").hide();
       });
