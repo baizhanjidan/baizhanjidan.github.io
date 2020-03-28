@@ -4,13 +4,14 @@ $(document).ready(function () {
 	$("div.text-success").before("<div align='center' id='snow'></div>");
     $("#snow").html(snow_lp);
     $("#acn").before('<div class="am-tab-panel am-fade" id="snow01"></div>');
-    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='snow02' class><a href='#snow01'>bqb</li>");
-    
+    $(".am-tabs-nav.am-nav.am-nav-tabs").prepend("<li id='snow02' class><a href='#snow01'>俺的bqb</li>");
+    $("#shanchu").on("click", function () {
+        $("#wenbenkuang").val($("#wenbenkuang").val() + '<s></s>');
+    });
     $("#snow02").on("click", function() {
       var imglist = [
-        "http://imglf6.nosdn.127.net/img/cE5sekhBUlB2N2JicVFDbXdkTURUbDQwU2dvVkhkOVcvbG1sWnVMdUQxRVRFQ1lmNXZKT1JnPT0.jpg",
-        "http://imglf3.nosdn.127.net/img/cE5sekhBUlB2N2JicVFDbXdkTURUcHZ3RXR5SDVFbFgzRi9XblcwV0dyMllpd2pkSE9DNTVBPT0.jpg",
-        "http://imglf6.nosdn.127.net/img/cE5sekhBUlB2N2FJbk1KSUxWMnQvYTFranAyZ3liME50bnJqNTZMMm1tSVVlelV4SlJHZW5RPT0.jpg",
+        "https://i2.tiimg.com/663097/29a5020fc21fce0e.jpg",
+        "https://i2.tiimg.com/700213/48ef680778032a92.jpg",
       ];
       $("#snow01").empty();
       for (var b = 0; b < imglist.length; b++) {
@@ -23,8 +24,15 @@ $(document).ready(function () {
         $("#snow01").append(snowemo);
       }
       $("#snow01").append(
-        '<br>'
+        '<br><font id="shanchu">删除线</font>'
       );
+      $("#shanchu").on("click", function() {
+        $("#wenbenkuang").val(
+          $("#wenbenkuang").val() +
+            '<s></s>'
+        );
+        $(".am-tabs-bd").hide();
+      });
       $(".am-tabs-bd").show();
     });
 });
