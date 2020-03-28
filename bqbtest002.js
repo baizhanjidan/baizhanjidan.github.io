@@ -8,6 +8,9 @@ $(document).ready(function () {
     $("#shanchu").on("click", function () {
         $("#wenbenkuang").val($("#wenbenkuang").val() + '<s></s>');
     });
+    $("#zhedie").on("click", function () {
+        $("#wenbenkuang").val($("#wenbenkuang").val() + '<details><summary>Click to open</summary>内容</details>');
+    });
     $("#snow02").on("click", function() {
       var imglist = [
         "https://i2.tiimg.com/663097/29a5020fc21fce0e.jpg",
@@ -24,12 +27,19 @@ $(document).ready(function () {
         $("#snow01").append(snowemo);
       }
       $("#snow01").append(
-        '<br><font id="shanchu">删除线</font>'
+        '<br><font id="shanchu">删除线</font>&nbsp;<font id="zhedie">折叠</font>'
       );
       $("#shanchu").on("click", function() {
         $("#wenbenkuang").val(
           $("#wenbenkuang").val() +
             '<s></s>'
+        );
+        $(".am-tabs-bd").hide();
+      });
+      $("#zhedie").on("click", function() {
+        $("#wenbenkuang").val(
+          $("#wenbenkuang").val() +
+            '<details><summary>Click to open</summary>内容</details>'
         );
         $(".am-tabs-bd").hide();
       });
