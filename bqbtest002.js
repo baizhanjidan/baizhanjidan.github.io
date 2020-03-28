@@ -23,7 +23,7 @@ $(document).ready(function () {
         "http://i1.fuimg.com/712728/ca47402e66770c6e.png",
         "http://i1.fuimg.com/712728/d026c0d5ea67a935.png",
         "http://i1.fuimg.com/712728/13419aacc651c63b.png",
-		"http://i1.fuimg.com/712728/5415255332a70011.png",
+	"http://i1.fuimg.com/712728/5415255332a70011.png",
         "http://i1.fuimg.com/712728/8430c58f7c02bb7e.png",
         "http://i1.fuimg.com/712728/403eb02ecf19a45f.png",
       ];
@@ -38,7 +38,7 @@ $(document).ready(function () {
         $("#snow01").append(snowemo);
       }
       $("#snow01").append(
-        '<br><p>常用代码</p><br><font id="shanchu" color="#4682B4">删除线</font>&nbsp;&nbsp;<font id="zhedie" color="#4682B4">折叠</font>&nbsp;&nbsp;<font id="lianjie" color="#4682B4">点就看</font>'
+        '<br>常用代码:<font id="shanchu" color="#4682B4">删除线</font>&nbsp;&nbsp;<font id="zhedie" color="#4682B4">折叠</font>&nbsp;&nbsp;<font id="lianjie" color="#4682B4">点就看</font>'
       );
       $("#shanchu").on("click", function() {
         $("#wenbenkuang").val(
