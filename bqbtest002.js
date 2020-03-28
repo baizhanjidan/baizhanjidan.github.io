@@ -8,17 +8,9 @@ $(document).ready(function () {
     
     $("#snow02").on("click", function() {
       var imglist = [
-        "http://i1.fuimg.com/712728/65bab655787573cf.png",
-        "http://i1.fuimg.com/712728/fe491bac039dc489.png",
-        "http://i1.fuimg.com/712728/063495cb8f04041a.png",
-        "http://i1.fuimg.com/712728/263e93258920e480.png",
-        "http://i1.fuimg.com/712728/ca47402e66770c6e.png",
-        "http://i1.fuimg.com/712728/d026c0d5ea67a935.png",
-        "http://i1.fuimg.com/712728/13419aacc651c63b.png",
-	"http://i1.fuimg.com/712728/5415255332a70011.png",
-        "http://i1.fuimg.com/712728/8430c58f7c02bb7e.png",
-        "http://i1.fuimg.com/712728/403eb02ecf19a45f.png",
-
+        "http://imglf6.nosdn.127.net/img/cE5sekhBUlB2N2JicVFDbXdkTURUbDQwU2dvVkhkOVcvbG1sWnVMdUQxRVRFQ1lmNXZKT1JnPT0.jpg",
+        "http://imglf3.nosdn.127.net/img/cE5sekhBUlB2N2JicVFDbXdkTURUcHZ3RXR5SDVFbFgzRi9XblcwV0dyMllpd2pkSE9DNTVBPT0.jpg",
+        "http://imglf6.nosdn.127.net/img/cE5sekhBUlB2N2FJbk1KSUxWMnQvYTFranAyZ3liME50bnJqNTZMMm1tSVVlelV4SlJHZW5RPT0.jpg",
       ];
       $("#snow01").empty();
       for (var b = 0; b < imglist.length; b++) {
