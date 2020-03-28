@@ -27,7 +27,7 @@ $(document).ready(function () {
         $("#snow01").append(snowemo);
       }
       $("#snow01").append(
-        '<br><font id="shanchu" color=“#DAA520”>删除线</font>&nbsp;&nbsp;<font id="zhedie">折叠</font>'
+        '<br><font id="shanchu" color="#4682B4">删除线</font>&nbsp;&nbsp;<font id="zhedie" color="#4682B4">折叠</font>'
       );
       $("#shanchu").on("click", function() {
         $("#wenbenkuang").val(
