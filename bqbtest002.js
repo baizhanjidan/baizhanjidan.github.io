@@ -8,8 +8,8 @@ $(document).ready(function () {
     
     $("#snow02").on("click", function() {
       var imglist = [
-        "https://i2.tiimg.com/663097/29a5020fc21fce0e.jpg",
-        "https://i2.tiimg.com/700213/48ef680778032a92.jpg",
+        "https://i.loli.net/2019/12/05/WkNUm8YuKxbVg7e.jpg",
+        "https://ftp.bmp.ovh/imgs/2019/10/578796363eeafb1e.gif"
       ];
       $("#snow01").empty();
       for (var b = 0; b < imglist.length; b++) {
