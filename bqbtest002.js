@@ -16,8 +16,16 @@ $(document).ready(function () {
     });
     $("#snow02").on("click", function() {
       var imglist = [
-        "https://i2.tiimg.com/663097/29a5020fc21fce0e.jpg",
-        "https://i2.tiimg.com/700213/48ef680778032a92.jpg",
+        "http://i1.fuimg.com/712728/65bab655787573cf.png",
+        "http://i1.fuimg.com/712728/fe491bac039dc489.png",
+        "http://i1.fuimg.com/712728/063495cb8f04041a.png",
+        "http://i1.fuimg.com/712728/263e93258920e480.png",
+        "http://i1.fuimg.com/712728/ca47402e66770c6e.png",
+        "http://i1.fuimg.com/712728/d026c0d5ea67a935.png",
+        "http://i1.fuimg.com/712728/13419aacc651c63b.png",
+		"http://i1.fuimg.com/712728/5415255332a70011.png",
+        "http://i1.fuimg.com/712728/8430c58f7c02bb7e.png",
+        "http://i1.fuimg.com/712728/403eb02ecf19a45f.png",
       ];
       $("#snow01").empty();
       for (var b = 0; b < imglist.length; b++) {
@@ -30,7 +38,7 @@ $(document).ready(function () {
         $("#snow01").append(snowemo);
       }
       $("#snow01").append(
-        '<br><br><font id="shanchu" color="#4682B4">删除线</font>&nbsp;&nbsp;<font id="zhedie" color="#4682B4">折叠</font>&nbsp;&nbsp;<font id="lianjie" color="#4682B4">点就看</font>'
+        '<br><p>常用代码</p><br><font id="shanchu" color="#4682B4">删除线</font>&nbsp;&nbsp;<font id="zhedie" color="#4682B4">折叠</font>&nbsp;&nbsp;<font id="lianjie" color="#4682B4">点就看</font>'
       );
       $("#shanchu").on("click", function() {
         $("#wenbenkuang").val(
