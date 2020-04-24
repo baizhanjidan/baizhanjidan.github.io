@@ -626,7 +626,7 @@ $.fn.extend({
           });
           if (selX > 0) {
             $this.css({
-              "background-image": "url(https://i1.fuimg.com/712728/4fabc5ae7f9355d1.png)"//start02
+              "background-image": "url(https://i.loli.net/2020/04/24/bnz6qetp5HPsYVF.png)"//start02
             });
           } else {
             $this.css({
