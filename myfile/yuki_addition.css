@@ -8,3 +8,13 @@ body{
 	display:none !important;
 }
 
+#myfuncbox{
+	z-index:999;
+	position:fixed;
+	right:0px;
+	bottom: 5%;
+	line-height:120%;
+	cursor:pointer;
+	text-align:center;
+	font-size:18px;
+}
