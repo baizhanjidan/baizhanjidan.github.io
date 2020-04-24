@@ -1,4 +1,4 @@
-$("body").prepend("<div style='z-index:100000;top:0px;left:0px;position: fixed;width:100%;height:100%;-webkit-pointer-events: none;-moz-pointer-events: none;-ms-pointer-events: none;-o-pointer-events: none;pointer-events: none;'><div id='slbell' draggable='true' style='pointer-events:auto;position: absolute;cursor:move ;top:20px;left:10px;width:128px;height:128px;background-image:url(http://i2.tiimg.com/712728/440d3430b2aa16e1.gif);background-size:100%;z-index:99999999'></div></div><style>div.col-md-2.col-lg-2.col-xs-2.col-sm-2{z-index:-1 !important;}</style>");
+$("body").prepend("<div id=shimeji><div style='z-index:100000;top:0px;left:0px;position: fixed;width:100%;height:100%;-webkit-pointer-events: none;-moz-pointer-events: none;-ms-pointer-events: none;-o-pointer-events: none;pointer-events: none;'><div id='slbell' draggable='true' style='pointer-events:auto;position: absolute;cursor:move ;top:20px;left:10px;width:128px;height:128px;background-image:url(http://i2.tiimg.com/712728/440d3430b2aa16e1.gif);background-size:100%;z-index:99999999'></div></div></div><style>div.col-md-2.col-lg-2.col-xs-2.col-sm-2{z-index:-1 !important;}</style>");
 
 
 var dh = null;
