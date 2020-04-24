@@ -5,6 +5,6 @@ body{
 	}
 	
 #slide{
-	display:none;
+	display:none !important;
 }
 
