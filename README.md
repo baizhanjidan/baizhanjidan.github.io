@@ -1,4 +1,3 @@
-# baizhanjidan.github.io
 <h1>done</h1>
 <p>·shimeji：<s>slbell031401.js</s>slbell_shimeji_v1.5.js</p>
 <p>·侧边快捷按钮</p>
