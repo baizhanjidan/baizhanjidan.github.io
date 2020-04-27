@@ -1,6 +1,6 @@
 # baizhanjidan.github.io
 <h1>done</h1>
-<p>·shimeji：slbell031401.js</p>
+<p>·shimeji：<s>slbell031401.js</s>slbell_shimeji_v1.5.js</p>
 <p>·侧边快捷按钮</p>
 <p>·表情栏：snowemotion.js</p>
 <p>·动态标题</p>
